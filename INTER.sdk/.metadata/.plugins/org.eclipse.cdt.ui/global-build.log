@@ -1,0 +1,1753 @@
+10:55:03 **** Build of project hello_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+10:55:51 **** Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.d" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22940	   1096	  29780	  53816	   d238	hello.elf
+'Finished building: hello.elf.size'
+' '
+15:42:48 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:166:25: error: 'XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID' undeclared (first use in this function)
+ #define GPIO_DEVICE_ID  XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID
+                         ^
+../src/helloworld.c:279:35: note: in expansion of macro 'GPIO_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                   ^
+../src/helloworld.c:166:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define GPIO_DEVICE_ID  XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID
+                         ^
+../src/helloworld.c:279:35: note: in expansion of macro 'GPIO_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                   ^
+../src/helloworld.c: In function 'SetupInterruptSystem':
+../src/helloworld.c:167:32: error: 'XPAR_INTC_0_GPIO_2_VEC_ID' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_INTC_0_GPIO_2_VEC_ID
+                                ^
+../src/helloworld.c:571:50: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:46:07 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:13:25: error: 'XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID' undeclared (first use in this function)
+ #define GPIO_DEVICE_ID  XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID
+                         ^
+../src/helloworld.c:126:35: note: in expansion of macro 'GPIO_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                   ^
+../src/helloworld.c:13:25: note: each undeclared identifier is reported only once for each function it appears in
+ #define GPIO_DEVICE_ID  XPAR_PUSH_BUTTONS_4BITS_DEVICE_ID
+                         ^
+../src/helloworld.c:126:35: note: in expansion of macro 'GPIO_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_DEVICE_ID);
+                                   ^
+../src/helloworld.c: In function 'SetupInterruptSystem':
+../src/helloworld.c:14:32: error: 'XPAR_INTC_0_GPIO_2_VEC_ID' undeclared (first use in this function)
+ #define INTC_GPIO_INTERRUPT_ID XPAR_INTC_0_GPIO_2_VEC_ID
+                                ^
+../src/helloworld.c:418:50: note: in expansion of macro 'INTC_GPIO_INTERRUPT_ID'
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:56:49 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:21:36: error: 'INTC_DEVICE_ID' undeclared (first use in this function)
+  IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+                                    ^
+../src/helloworld.c:21:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:26:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+  ^
+../src/helloworld.c:26:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:32:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:133:40: error: 'BUTTON_CHANNEL' undeclared (first use in this function)
+  Buttons = XGpio_DiscreteRead(GpioPtr, BUTTON_CHANNEL);
+                                        ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:57:10 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:21:36: error: 'INTC_DEVICE_ID' undeclared (first use in this function)
+  IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+                                    ^
+../src/helloworld.c:21:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:26:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+  ^
+../src/helloworld.c:26:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:32:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:57:41 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:6:1: error: unknown type name 'GPio'
+ GPio GpioPtr;
+ ^
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:36: error: 'INTC_DEVICE_ID' undeclared (first use in this function)
+  IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:25:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+  ^
+../src/helloworld.c:25:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:31:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:39:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:53:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:63:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:111:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:115:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:145:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:146:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:57:52 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:20:36: error: 'INTC_DEVICE_ID' undeclared (first use in this function)
+  IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+                                    ^
+../src/helloworld.c:20:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:25:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+  ^
+../src/helloworld.c:25:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:31:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:39:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:53:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:63:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:111:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:115:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:145:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:146:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:58:49 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+  ^
+../src/helloworld.c:25:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:25:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:31:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:39:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:53:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:63:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:111:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:115:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:145:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:146:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+16:59:09 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:25:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Status = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:25:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:31:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:38:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+  ^
+../src/helloworld.c:39:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:39:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:53:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:63:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:111:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:115:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:145:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:146:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:00:06 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:26:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Status = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                 ^
+../src/helloworld.c:26:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:32:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+  ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:00:14 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:6: error: incompatible type for argument 1 of 'XScuGic_CfgInitialize'
+      IntcConfig->CpuBaseAddress);
+      ^
+In file included from ../src/helloworld.c:4:0:
+../../hello_bsp/ps7_cortexa9_0/include/xscugic.h:294:6: note: expected 'struct XScuGic *' but argument is of type 'XScuGic'
+ int  XScuGic_CfgInitialize(XScuGic *InstancePtr, XScuGic_Config *ConfigPtr,
+      ^
+../src/helloworld.c:32:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                 ^
+../src/helloworld.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:32:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+  ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:00:57 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:32:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                 ^
+../src/helloworld.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:32:50: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                                  ^
+../src/helloworld.c:39:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+  ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:01:17 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:39:2: error: 'Result' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+  ^
+../src/helloworld.c:39:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:39:27: error: 'IntcInstancePtr' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                           ^
+../src/helloworld.c:39:44: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  Result = XScuGic_Connect(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID,
+                                            ^
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:01:45 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                            ^
+../src/helloworld.c:40:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:40:38: error: 'Gpio' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &Gpio);
+                                      ^
+../src/helloworld.c:41:6: error: 'Result' undeclared (first use in this function)
+  if (Result != XST_SUCCESS) {
+      ^
+../src/helloworld.c:48:17: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                 ^
+../src/helloworld.c:48:34: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                                  ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:01:58 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:40:28: error: 'GpioIsr' undeclared (first use in this function)
+      (Xil_ExceptionHandler)GpioIsr, &GpioPtr);
+                            ^
+../src/helloworld.c:40:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:41:6: error: 'Result' undeclared (first use in this function)
+  if (Result != XST_SUCCESS) {
+      ^
+../src/helloworld.c:48:17: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                 ^
+../src/helloworld.c:48:34: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                                  ^
+../src/helloworld.c:54:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:54:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:64:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:112:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:116:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:146:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:147:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:02:23 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:6: error: 'Result' undeclared (first use in this function)
+  if (Result != XST_SUCCESS) {
+      ^
+../src/helloworld.c:43:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:50:17: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                 ^
+../src/helloworld.c:50:34: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                                  ^
+../src/helloworld.c:56:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:56:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:02:35 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:44:10: error: 'Result' undeclared (first use in this function)
+   return Result;
+          ^
+../src/helloworld.c:44:10: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:50:17: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                 ^
+../src/helloworld.c:50:34: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                                  ^
+../src/helloworld.c:56:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:56:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:02:38 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:17: error: 'IntcInstancePtr' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                 ^
+../src/helloworld.c:50:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:50:34: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+                                  ^
+../src/helloworld.c:56:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:56:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:02:50 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:50:24: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function)
+  XScuGic_Enable(&Intc, INTC_GPIO_INTERRUPT_ID);
+                        ^
+../src/helloworld.c:50:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:56:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:56:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:02:55 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:25: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                         ^
+../src/helloworld.c:56:25: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:56:31: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:03:18 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:56:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptEnable(&GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:56:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:57:31: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptGlobalEnable(&Gpio);
+                               ^
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:03:41 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:31: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptGlobalEnable(&Gpio);
+                               ^
+../src/helloworld.c:57:31: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:05:02 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:31: error: 'Gpio' undeclared (first use in this function)
+  XGpio_InterruptGlobalEnable(&Gpio);
+                               ^
+../src/helloworld.c:57:31: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:05:12 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:07:53 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:5: error: cannot convert to a pointer type
+     (Xil_ExceptionHandler)Intc, IntcInstancePtr);
+     ^
+../src/helloworld.c:66:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)Intc, IntcInstancePtr);
+                                 ^
+../src/helloworld.c:66:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:08:07 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:34: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)&Intc, IntcInstancePtr);
+                                  ^
+../src/helloworld.c:66:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:08:35 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:27: error: 'INTC_HANDLER' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                           ^
+../src/helloworld.c:66:27: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:66:41: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+                                         ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:08:41 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:5: error: cannot convert to a pointer type
+     (Xil_ExceptionHandler)Intc, IntcInstancePtr);
+     ^
+../src/helloworld.c:66:33: error: 'IntcInstancePtr' undeclared (first use in this function)
+     (Xil_ExceptionHandler)Intc, IntcInstancePtr);
+                                 ^
+../src/helloworld.c:66:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:09:58 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:66:5: error: cannot convert to a pointer type
+     (Xil_ExceptionHandler)Intc, &Intc);
+     ^
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:114:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:10:39 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:114:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:118:2: error: 'InterruptCount' undeclared (first use in this function)
+  InterruptCount++;
+  ^
+../src/helloworld.c:148:4: warning: implicit declaration of function 'MapButton2Led' [-Wimplicit-function-declaration]
+    Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+    ^
+../src/helloworld.c:149:43: error: 'LED_CHANNEL' undeclared (first use in this function)
+    LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+                                           ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:11:24 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:114:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:114:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:109:13: warning: unused variable 'PreviousButtons' [-Wunused-variable]
+  static u32 PreviousButtons;
+             ^
+../src/helloworld.c:108:6: warning: unused variable 'ButtonsChanged' [-Wunused-variable]
+  u32 ButtonsChanged = 0;
+      ^
+../src/helloworld.c:107:6: warning: unused variable 'ButtonFound' [-Wunused-variable]
+  u32 ButtonFound;
+      ^
+../src/helloworld.c:106:6: warning: unused variable 'Buttons' [-Wunused-variable]
+  u32 Buttons;
+      ^
+../src/helloworld.c:105:6: warning: unused variable 'LedState' [-Wunused-variable]
+  u32 LedState;
+      ^
+../src/helloworld.c:104:6: warning: unused variable 'Led' [-Wunused-variable]
+  u32 Led;
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:119:4: error: expected identifier or '(' before 'void'
+   (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+    ^
+../src/helloworld.c:124:3: warning: data definition has no type or storage class [enabled by default]
+   XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+   ^
+../src/helloworld.c:124:3: warning: type defaults to 'int' in declaration of 'XGpio_InterruptEnable' [-Wimplicit-int]
+../src/helloworld.c:124:3: warning: parameter names (without types) in function declaration [enabled by default]
+../src/helloworld.c:124:3: error: conflicting types for 'XGpio_InterruptEnable'
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: previous declaration of 'XGpio_InterruptEnable' was here
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:126:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:11:32 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:108:34: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+                                  ^
+../src/helloworld.c:108:34: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:108:2: error: incompatible type for argument 1 of 'XGpio_InterruptDisable'
+  XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+  ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:195:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptDisable(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c: At top level:
+../src/helloworld.c:113:4: error: expected identifier or '(' before 'void'
+   (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+    ^
+../src/helloworld.c:118:3: warning: data definition has no type or storage class [enabled by default]
+   XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+   ^
+../src/helloworld.c:118:3: warning: type defaults to 'int' in declaration of 'XGpio_InterruptEnable' [-Wimplicit-int]
+../src/helloworld.c:118:3: warning: parameter names (without types) in function declaration [enabled by default]
+../src/helloworld.c:118:3: error: conflicting types for 'XGpio_InterruptEnable'
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: previous declaration of 'XGpio_InterruptEnable' was here
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:120:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:11:43 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:108:35: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+  XGpio_InterruptDisable(&GpioPtr, BUTTON_INTERRUPT);
+                                   ^
+../src/helloworld.c:108:35: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c: At top level:
+../src/helloworld.c:113:4: error: expected identifier or '(' before 'void'
+   (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+    ^
+../src/helloworld.c:118:3: warning: data definition has no type or storage class [enabled by default]
+   XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+   ^
+../src/helloworld.c:118:3: warning: type defaults to 'int' in declaration of 'XGpio_InterruptEnable' [-Wimplicit-int]
+../src/helloworld.c:118:3: warning: parameter names (without types) in function declaration [enabled by default]
+../src/helloworld.c:118:3: error: conflicting types for 'XGpio_InterruptEnable'
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: previous declaration of 'XGpio_InterruptEnable' was here
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:120:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:11:56 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:113:39: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+   (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+                                       ^
+../src/helloworld.c:113:39: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:113:3: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+   (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:196:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:118:3: error: incompatible type for argument 1 of 'XGpio_InterruptEnable'
+   XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:12:07 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:113:33: error: 'BUTTON_INTERRUPT' undeclared (first use in this function)
+   XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+                                 ^
+../src/helloworld.c:113:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:113:3: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+   XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:196:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:118:3: error: incompatible type for argument 1 of 'XGpio_InterruptEnable'
+   XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:12:14 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'GpioIsr':
+../src/helloworld.c:113:3: error: incompatible type for argument 1 of 'XGpio_InterruptClear'
+   XGpio_InterruptClear(GpioPtr, XGPIO_IR_CH1_MASK);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:196:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptClear(XGpio *InstancePtr, u32 Mask);
+      ^
+../src/helloworld.c:118:3: error: incompatible type for argument 1 of 'XGpio_InterruptEnable'
+   XGpio_InterruptEnable(GpioPtr, XGPIO_IR_CH1_MASK);
+   ^
+In file included from ../src/helloworld.c:2:0:
+../../hello_bsp/ps7_cortexa9_0/include/xgpio.h:194:6: note: expected 'struct XGpio *' but argument is of type 'XGpio'
+ void XGpio_InterruptEnable(XGpio *InstancePtr, u32 Mask);
+      ^
+make: *** [src/helloworld.o] ´íÎó 1
+17:12:20 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26692	   1872	  29828	  58392	   e418	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:13:26 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26692	   1872	  29828	  58392	   e418	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:13:31 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  26692	   1872	  29828	  58392	   e418	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:14:39 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27756	   1888	  29828	  59472	   e850	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:15:42 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27796	   1888	  29828	  59512	   e878	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:16:14 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27816	   1888	  29828	  59532	   e88c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:17:22 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27816	   1888	  29828	  59532	   e88c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:17:36 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27828	   1888	  29828	  59544	   e898	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:17:59 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27860	   1888	  29828	  59576	   e8b8	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:19:01 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:24:11 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28024	   1888	  29828	  59740	   e95c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:24:31 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:25:19 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28056	   1888	  29828	  59772	   e97c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:25:35 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:27:15 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28056	   1888	  29828	  59772	   e97c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:28:47 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28056	   1888	  29828	  59772	   e97c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:29:25 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:30:24 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:43:25 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28056	   1888	  29828	  59772	   e97c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:43:45 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:44:47 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28056	   1888	  29828	  59772	   e97c	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:45:22 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:45:25 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+17:47:28 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+17:47:43 **** Incremental Build of configuration Debug for project hello ****
+make all 
+make: Nothing to be done for `all'.
+16:16:50 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+16:23:02 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+16:26:27 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+16:42:49 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+16:43:32 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '
+16:46:19 **** Auto Build of configuration Debug for project hello ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../hello_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: hello.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../hello_bsp/ps7_cortexa9_0/lib -o "hello.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: hello.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size hello.elf  |tee "hello.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28136	   1888	  29828	  59852	   e9cc	hello.elf
+'Finished building: hello.elf.size'
+' '

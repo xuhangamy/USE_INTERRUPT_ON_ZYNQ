@@ -1,0 +1,12 @@
+!SESSION 2014-09-30 10:54:18.218 -----------------------------------------------
+eclipse.buildId=2014.2
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Xilinx_Project_Vivado/INTER/INTER.sdk
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-09-30 10:55:55.740
+!MESSAGE Indexed 'hello_bsp' (119 sources, 135 headers) in 4.09 sec: 5,483 declarations; 25,930 references; 65 unresolved inclusions; 9 syntax errors; 38 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-09-30 10:55:56.002
+!MESSAGE Indexed 'hello' (2 sources, 25 headers) in 0.25 sec: 961 declarations; 1,291 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

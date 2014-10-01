@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Sep 30 10:50:32 2014
+# Process ID: 4796
+# Log file: C:/Xilinx_Project_Vivado/INTER/INTER.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Xilinx_Project_Vivado/INTER/INTER.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

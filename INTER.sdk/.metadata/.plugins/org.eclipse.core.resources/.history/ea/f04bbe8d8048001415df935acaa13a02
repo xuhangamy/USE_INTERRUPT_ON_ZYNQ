@@ -1,0 +1,175 @@
+#include "xparameters.h"
+#include "xgpio.h"
+#include "xil_exception.h"
+#include "xscugic.h"
+
+XGpio GpioPtr;
+XScuGic Intc;
+
+
+void GpioIsr(void *InstancePtr);
+
+int main(void)
+{
+	int Status;
+
+
+	XScuGic_Config *IntcConfig;
+
+	/*
+	 * Initialize the interrupt controller driver so that it is ready to
+	 * use.
+	 */
+	IntcConfig = XScuGic_LookupConfig(XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR);
+	if (NULL == IntcConfig) {
+		return XST_FAILURE;
+	}
+
+	Status = XScuGic_CfgInitialize(&Intc, IntcConfig,
+					IntcConfig->CpuBaseAddress);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+	XScuGic_SetPriorityTriggerType(&Intc, XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR,
+						0xA0, 0x3);
+
+	/*
+	 * Connect the interrupt handler that will be called when an
+	 * interrupt occurs for the device.
+	 */
+	Status = XScuGic_Connect(&Intc, XPAR_FABRIC_AXI_GPIO_0_IP2INTC_IRPT_INTR,
+				 (Xil_ExceptionHandler)GpioIsr, &GpioPtr);
+	if (Status != XST_SUCCESS) {
+		return Status;
+	}
+
+	/*
+	 * Enable the interrupt for the GPIO device.
+	 */
+	XScuGic_Enable(IntcInstancePtr, INTC_GPIO_INTERRUPT_ID);
+	if (Status != XST_SUCCESS) {
+		return XST_FAILURE;
+	}
+
+
+	XGpio_InterruptEnable(&Gpio, BUTTON_INTERRUPT);
+	XGpio_InterruptGlobalEnable(&Gpio);
+
+	/*
+	 * Initialize the exception table and register the interrupt
+	 * controller handler with the exception table
+	 */
+	Xil_ExceptionInit();
+
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+			 (Xil_ExceptionHandler)INTC_HANDLER, IntcInstancePtr);
+
+	/* Enable non-critical exceptions */
+	Xil_ExceptionEnable();
+
+	/*
+	 * Loop forever while the button changes are handled by the interrupt
+	 * level processing
+	 */
+	while (1) {
+	}
+
+	return XST_SUCCESS;
+}
+
+
+
+/****************************************************************************/
+/**
+* This function is the Interrupt Service Routine for the GPIO device.  It
+* will be called by the processor whenever an interrupt is asserted by the
+* device.
+*
+* This function will detect the push button on the board has changed state
+* and then turn on or off the LED.
+*
+* @param	InstancePtr is the GPIO instance pointer to operate on.
+*		It is a void pointer to meet the interface of an interrupt
+*		processing function.
+*
+* @return	None.
+*
+* @note		None.
+*
+*****************************************************************************/
+void GpioIsr(void *InstancePtr)
+{
+	XGpio *GpioPtr = (XGpio *)InstancePtr;
+	u32 Led;
+	u32 LedState;
+	u32 Buttons;
+	u32 ButtonFound;
+	u32 ButtonsChanged = 0;
+	static u32 PreviousButtons;
+
+	/*
+	 * Disable the interrupt
+	 */
+	XGpio_InterruptDisable(GpioPtr, BUTTON_INTERRUPT);
+
+	/* Keep track of the number of interrupts that occur */
+
+	InterruptCount++;
+
+	/*
+	 * There should not be any other interrupts occuring other than the
+	 * the button changes
+	 */
+	if ((XGpio_InterruptGetStatus(GpioPtr) & BUTTON_INTERRUPT) !=
+		BUTTON_INTERRUPT) {
+		return;
+	}
+
+
+	/*
+	 * Read state of push buttons and determine which ones changed
+	 * states from the previous interrupt. Save a copy of the buttons
+	 * for the next interrupt
+	 */
+	Buttons = XGpio_DiscreteRead(GpioPtr, 1);
+	ButtonsChanged = Buttons ^ PreviousButtons;
+	PreviousButtons = Buttons;
+
+	/*
+	 * Handle all button state changes that occurred since the last
+	 * interrupt
+	 */
+	while (ButtonsChanged != 0) {
+		/*
+		 * Determine which button changed state and then get
+		 * the current state of the associated LED
+		 */
+		 Led = MapButton2Led(ButtonsChanged, &ButtonFound);
+		 LedState = XGpio_DiscreteRead(GpioPtr, LED_CHANNEL) & Led;
+
+		 /*
+		  * Clear the button that is being processed so that it is
+		  * done and others can be handled also
+		  */
+		 ButtonsChanged &= ~ButtonFound;
+
+		 /* Toggle the state of the LED */
+		 if (LedState) {
+			 XGpio_DiscreteClear(GpioPtr, LED_CHANNEL, Led);
+		 } else {
+			 XGpio_DiscreteSet(GpioPtr, LED_CHANNEL, Led);
+		 }
+	 }
+
+	 /* Clear the interrupt such that it is no longer pending in the GPIO */
+
+	 (void)XGpio_InterruptClear(GpioPtr, BUTTON_INTERRUPT);
+
+	 /*
+	  * Enable the interrupt
+	  */
+	 XGpio_InterruptEnable(GpioPtr, BUTTON_INTERRUPT);
+
+}
+
